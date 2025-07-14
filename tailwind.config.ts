@@ -52,6 +52,22 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Game-specific colors
+				game: {
+					snake: 'hsl(var(--game-snake))',
+					minesweeper: 'hsl(var(--game-minesweeper))',
+					flappy: 'hsl(var(--game-flappy))',
+				},
+				'game-bg': {
+					snake: 'hsl(var(--game-bg-snake))',
+					minesweeper: 'hsl(var(--game-bg-minesweeper))',
+					flappy: 'hsl(var(--game-bg-flappy))',
+				},
+				board: {
+					light: 'hsl(var(--board-light))',
+					dark: 'hsl(var(--board-dark))',
+					border: 'hsl(var(--board-border))',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
