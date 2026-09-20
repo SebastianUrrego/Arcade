@@ -56,7 +56,8 @@ All colors MUST be HSL.
     --board-dark: 240 5% 20%;
     --board-border: 240 3.7% 15.9%;
 
-    --radius: 0.5rem;
+    /* 8-BIT SHARP CORNERS */
+    --radius: 0rem;
 
     --sidebar-background: 0 0% 98%;
 
